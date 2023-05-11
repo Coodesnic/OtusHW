@@ -44,3 +44,4 @@ public class HomeworkTemplate {
         System.out.println("Результат: правильно " + correctCount + ", неправильно " + wrongCount);
     }
 }
+///testing change for IntIDea commit and push
