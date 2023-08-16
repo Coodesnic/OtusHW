@@ -1,8 +1,9 @@
 
 public class Question {
    private int questionNum;
+   Answer[] answers = new Answer[4];
    private String textOfQuestion;
-    //Answer[] questionAnswers;
+
 
     public Question(){
         this.questionNum = 0;
@@ -13,14 +14,14 @@ public class Question {
         this.textOfQuestion = textOfQuestion;
     }
 
-    int getQuestionNum (int questionNum){
+    public int getQuestionNum (int questionNum){
         return questionNum;
     }
     void setQuestionNum(int questionNum){
         this.questionNum = questionNum;
     }
 
-    String getTextOfQuestion(){
+    public String getTextOfQuestion(){
         return textOfQuestion;
     }
     void setTextOfQuestion (String textOfQuestion){

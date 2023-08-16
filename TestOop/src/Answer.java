@@ -13,8 +13,8 @@ public class Answer {
         this.correctOrWrong = correctOrWrong;
     }
 
-    int getAnswerNum(){return answerNum;}
-    String getAnswerText(){return answerText;}
+   public int getAnswerNum(){return answerNum;}
+   public String getAnswerText(){return answerText;}
     boolean isCorrectOrWrong(){return correctOrWrong;}
 
 }
