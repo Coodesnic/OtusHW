@@ -9,7 +9,7 @@ public class Main {
     public static void moneyInWords(int[] moneyValueArr){ //функция вызывает алгоритм перевода и пишет окончания разрядов
         int[] part1 = new int[10];
 
-       if(moneyValueArr.length > 3){
+       if(moneyValue/1000 != 0){
            //передача разрядов и вызов основного алгоритма перевода для разрядов тысяч
            int[] part2 = new int[10];
            part2[0] = moneyValueArr[3];
